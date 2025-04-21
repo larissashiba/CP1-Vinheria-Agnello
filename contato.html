@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="vinhos, contato, vinheria, atendimento" />
+  <meta name="description" content="Entre em contato com a Vinheria Agnello." />
+  <title>Contato - Vinheria Agnello</title>
+  <link rel="icon" type="image/png" href="src/assets/imgs/logo.ico" />
+  <link rel="stylesheet" href="src/css/style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital,wght@0,400;1,400&display=swap"
+    rel="stylesheet"
+  >
+</head>
+<body>
+  <header class="claro">
+    <div class="container">
+      <img src="src/assets/imgs/agnello-logo.png" alt="Vinheria Agnello" class="logo" />
+      <nav>
+        <ul>
+          <li><a href="index.html" class="nav-link">Início</a></li>
+          <li><a href="Vinhos.html" class="nav-link">Vinhos</a></li>
+          <li><a href="#" class="nav-link">Ofertas</a></li>
+          <li><a href="#" class="nav-link">Sobre</a></li>
+          <li><a href="contato.html" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="search-box">
+        <form id="form-busca">
+          <input type="text" placeholder="Buscar..." id="campo-busca" />
+          <button type="submit">🔍</button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="secao-contato">
+      <div class="secao-titulo">
+        <h2>Fale Conosco</h2>
+        <div class="linha"></div>
+        <p>Tem alguma dúvida, sugestão ou deseja falar conosco? Preencha o formulário abaixo ou utilize nossos canais de atendimento:</p>
+      </div>
+
+      <div class="informacoes-contato">
+        <p><strong>Endereço:</strong> Rua das Vinhas, 1234 - Bairro dos Sabores, São Paulo - SP</p>
+        <p><strong>Telefone:</strong> (11) 91234-5678</p>
+        <p><strong>E-mail:</strong> contato@vinheriaagnello.com</p>
+        <br>
+      </div>
+
+      <form class="form-contato" action="#" method="POST">
+        <div class="form-grupo">
+          <label for="nome">Seu nome completo:</label>
+          <input type="text" id="nome" name="nome" placeholder="Ex: João da Silva" required />
+        </div>
+
+        <div class="form-grupo">
+          <label for="email">Seu e-mail:</label>
+          <input type="email" id="email" name="email" placeholder="Ex: joao@email.com" required />
+        </div>
+
+        <div class="form-grupo">
+          <label for="assunto">Assunto:</label>
+          <input type="text" id="assunto" name="assunto" placeholder="Ex: Pedido, Sugestão, Dúvida..." />
+        </div>
+
+        <div class="form-grupo">
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="6" placeholder="Digite sua mensagem aqui..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Vinheria Agnello. Todos os direitos reservados.</p>
+    <nav>
+      <a href="#">Política de Privacidade</a> |
+      <a href="#">Termos de Uso</a>
+    </nav>
+  </footer>
+
+  <script src="src/js/script.js"></script>
+</body>
+</html>
