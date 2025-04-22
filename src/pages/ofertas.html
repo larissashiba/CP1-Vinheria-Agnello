@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="vinhos, vinheria, ofertas, descontos, vinho tinto, vinho branco" />
+  <meta name="description" content="Aproveite as ofertas exclusivas da Vinheria Agnello!" />
+  <title>Ofertas | Vinheria Agnello</title>
+  <link rel="icon" type="image/png" href="../assets/imgs/logo.ico" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <style>
+    /* Estilo geral do container */
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      padding-top: 20px;
+    }
+
+    /* Estilo da seção de ofertas */
+    .ofertas {
+      text-align: center;
+    }
+
+    /* Títulos */
+    .ofertas h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+    .ofertas p {
+      font-size: 1.2rem;
+      color: #666;
+    }
+
+    /* Contêiner das ofertas */
+    .oferta-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+      justify-items: center;
+      margin-top: 30px;
+    }
+
+    /* Estilo de cada item de oferta */
+    .oferta-item {
+      background-color: #f9f9f9;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 100%;
+      max-width: 250px; /* Limita a largura máxima */
+    }
+
+    /* Ajuste do tamanho das imagens nas ofertas */
+    .oferta-item img {
+      width: 150px; /* Definindo um tamanho fixo para as imagens */
+      height: auto; /* Garantindo que a proporção da imagem seja mantida */
+      object-fit: cover; /* Garante que a imagem se ajuste sem distorção */
+      margin-bottom: 10px; /* Espaçamento entre a imagem e o título */
+      border-radius: 8px; /* Arredondando as bordas das imagens */
+    }
+
+    /* Títulos e preços */
+    .oferta-item h3 {
+      font-size: 1.4rem;
+      margin: 10px 0;
+    }
+    .oferta-item .preco {
+      font-size: 1.2rem;
+      color: #e74c3c;
+      margin-bottom: 15px;
+    }
+
+    /* Botões */
+    .oferta-item button {
+      background-color: #3498db;
+      color: white;
+      padding: 10px 15px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .oferta-item button:hover {
+      background-color: #2980b9;
+    }
+
+    /* Responsividade */
+    @media (max-width: 768px) {
+      .container {
+        width: 90%;
+      }
+      .oferta-item {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <img src="../assets/imgs/logo.ico" alt="Vinheria Agnello" class="logo" />
+      <nav>
+        <ul>
+          <li><a href="../../" class="nav-link">Início</a></li>
+          <li><a href="vinhos.html" class="nav-link">Vinhos</a></li>
+          <li><a href="ofertas.html" class="nav-link">Ofertas</a></li>
+          <li><a href="sobre.html" class="nav-link">Sobre</a></li>
+          <li><a href="contato.html" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section class="ofertas">
+        <h2>Ofertas Imperdíveis</h2>
+        <p>Aproveite as ofertas especiais de vinhos selecionados para você!</p>
+
+        <div class="oferta-container">
+          <!-- Oferta 1 -->
+          <div class="oferta-item">
+            <img src="../assets/imgs/vinho1.png" alt="Vinho Tinto Exclusivo" />
+            <h3>Vinho Tinto Exclusivo</h3>
+            <p class="preco">De R$ 150,00 por <strong>R$ 99,00</strong></p>
+            <button>Comprar</button>
+          </div>
+
+          <!-- Oferta 2 -->
+          <div class="oferta-item">
+            <img src="../assets/imgs/vinho2.png" alt="Vinho Branco Premium" />
+            <h3>Vinho Branco Premium</h3>
+            <p class="preco">De R$ 180,00 por <strong>R$ 129,00</strong></p>
+            <button>Comprar</button>
+          </div>
+
+          <!-- Oferta 3 -->
+          <div class="oferta-item">
+            <img src="../assets/imgs/vinho3.png" alt="Espumante Delicado" />
+            <h3>Espumante Delicado</h3>
+            <p class="preco">De R$ 120,00 por <strong>R$ 89,00</strong></p>
+            <button>Comprar</button>
+          </div>
+
+          <!-- Oferta 4 -->
+          <div class="oferta-item">
+            <img src="../assets/imgs/vinho4.png" alt="Vinho de Sobremesa" />
+            <h3>Vinho de Sobremesa</h3>
+            <p class="preco">De R$ 200,00 por <strong>R$ 149,00</strong></p>
+            <button>Comprar</button>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Vinheria Agnello. Todos os direitos reservados.</p>
+    <nav>
+      <a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a>
+    </nav>
+  </footer>
+
+  <script src="src/js/script.js"></script>
+</body>
+</html>
