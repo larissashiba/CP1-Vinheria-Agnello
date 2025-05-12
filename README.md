@@ -53,9 +53,11 @@ O projeto implementa diversos efeitos visuais usando recursos avançados de CSS 
 ### 🎯 Pseudo-classes utilizadas:
 - `:hover` – efeitos em links, categorias, botões e tabelas.
 - `:focus` – destaque ao interagir com campos de formulário.
+- `:nth-child`- Recebe um Fundo Especial
 
 ### 🎯 Pseudo-elementos aplicados:
 - `::after` – barra decorativa animada nos links do menu.
+- `::selection` - Novidade estilo de Texto Quando e selecionado.
 
 ### 💫 Animações com `@keyframes`:
 - Animação `pulse` aplicada a elementos interativos como botões, promovendo atenção ao usuário com um efeito de escala suave e contínua.
@@ -75,6 +77,7 @@ Esses efeitos foram cuidadosamente distribuídos para garantir uma navegação f
 -  Matheus da Costa Barroso
 -  Larissa Shiba Felix
 -  Gabriel Henrique Borges Hombris
+-  Mayke Costa Santos
 
 ## 🔗 Link para o site no GitHub Pages
 - https://larissashiba.github.io/CP1-Vinheria-Agnello/
