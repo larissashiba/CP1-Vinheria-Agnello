@@ -16,3 +16,68 @@
 .nav-link.active::after {
   width: 100%;
 }
+
+.categoria-item:hover{
+  transform: scale(1.1) translateY(-4px);
+}
+
+.card-combina:hover {
+  transform: scale(1.03);
+}
+
+.search-box button {
+  position: absolute;
+  right: 10px;
+  top: 10%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: #880028;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease;
+}
+
+.search-box button:hover {
+  color: #ff6600;
+  transform: translateY(-55%);
+}
+
+.carousel-controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.categoria-item p{
+   font-size: 20px;
+   transition: transform 0.2s ease;
+   will-change: transform;
+   font-family: 'Chau Philomene One', serif;
+   
+}
+
+.card-combina {
+  position: relative;
+  width: 220px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+ .search-box button {
+    right: 12px;
+    top: 25%;
+    transform: translateY(-50%);
+    font-size: 17px;
+  }
