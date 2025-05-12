@@ -72,9 +72,9 @@ Esses efeitos foram cuidadosamente distribuídos para garantir uma navegação f
 ---
 
 ## 👥 Nome dos Integrantes
-- Matheus da Costa Barroso
-- Larissa Shiba Felix
-- Gabriel Henrique Borges Hombris
+-  Matheus da Costa Barroso
+-  Larissa Shiba Felix
+-  Gabriel Henrique Borges Hombris
 
 ## 🔗 Link para o site no GitHub Pages
 - https://larissashiba.github.io/CP1-Vinheria-Agnello/
