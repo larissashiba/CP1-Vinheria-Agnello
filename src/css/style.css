@@ -652,11 +652,7 @@ footer nav a {
   transition: border 0.3s ease;
 }
 
-.form-grupo input:focus,
-.form-grupo textarea:focus {
-  border-color: #880e4f;
-  box-shadow: 0 0 5px rgba(136, 14, 79, 0.2);
-}
+
 
 .btn-enviar {
   background-color: #880e4f;
