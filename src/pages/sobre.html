@@ -7,85 +7,30 @@
   <title>Sobre - Vinheria Agnello</title>
   <link rel="icon" type="image/png" href="../assets/imgs/logo.ico" />
   <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/efeitos.css" />
   <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One&display=swap" rel="stylesheet" />
-  <style>
-    /* Correção de alinhamento do menu */
-    header .container {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 10px 20px;
-    }
-
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 20px;
-      margin: 0;
-      padding: 0;
-    }
-
-    nav a {
-      text-decoration: none;
-      font-weight: bold;
-      color: #333;
-    }
-
-    nav a.ativo {
-      color: #b22222;
-    }
-
-    .logo {
-      height: 60px;
-    }
-
-    .sobre-conteudo,
-    .equipe-conteudo {
-      display: flex;
-      align-items: center;
-      gap: 30px;
-      margin-bottom: 40px;
-    }
-
-    .imagem-sobre {
-      max-width: 400px;
-      border-radius: 10px;
-    }
-
-    .texto-sobre {
-      flex: 1;
-    }
-
-    .lista-valores {
-      list-style: none;
-      padding: 0;
-    }
-
-    .lista-valores li {
-      margin-bottom: 10px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      background-color: #f4f4f4;
-      margin-top: 40px;
-    }
-  </style>
 </head>
 <body>
   <header class="claro">
     <div class="container">
       <img src="../assets/imgs/agnello-logo.png" alt="Vinheria Agnello" class="logo" />
       <nav>
-        <ul>
+      <ul>
           <li><a href="../../index.html" class="nav-link">Inicio</a></li>
           <li><a href="vinhos.html" class="nav-link">Vinhos</a></li>
           <li><a href="ofertas.html" class="nav-link">Ofertas</a></li>
-          <li><a href="sobre.html" class="nav-link ativo">Sobre</a></li>
-          <li><a href="contato.html" class="nav-link">Contato</a></li>
+          <li><a href="sobre.html" class="nav-link">Sobre</a></li>
+          <li><a href="tabela.html" class="nav-link">Contato</a></li>
+          <li><a href="tabela.html" class="nav-link">Tabela</a></li>
         </ul>
       </nav>
+      <div class="search-box">
+        <form id="form-busca">
+          <input type="text" placeholder="Buscar..." id="campo-busca" />
+          <button type="submit">🔍</button>
+        </form>
+      </div>
+    </div>
     </div>
   </header>
 

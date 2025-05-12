@@ -1,0 +1,18 @@
+/* Hover e After */
+.nav-link:hover {
+  color: #800028;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;          
+  height: 3px;          
+  width: 0;
+  background: #800028;
+  transition: width 0.3s;
+}
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;
+}
