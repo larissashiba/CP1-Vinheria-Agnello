@@ -1,5 +1,78 @@
-Considerando o tempo em que vivemos, onde o isolamento social se faz necessário, a vinheria Agnello precisou também se reinventar, uma vinheria que costumava seguir o padrão tradicional de negócios não poderia sobreviver a pandemia sem construir também o seu negócio on-line.
-Portanto, a criação de uma marca que seja presente no mundo on-line foi necessária, para isso, criamos um site simples, apenas com html, js e css básicos, porém funcional.
-Nesse site temos já na primeira página tudo o que pode ser do interesse e também que pode ajudar a esclarecer alguma dúvida que o cliente tenha, contando com 6 abas clicáveis, onde nelas temos uma aba sobre a marca, sobre os vinhos, aba de ofertas e a parte mais humanizada do site definitivamente é o nosso formulário de contato, onde o cliente pode enviar alguns dados básicos e fazer alguma pergunta, caso tenha alguma dúvida a respeito da compra, julgamos isso importante pois uma vez que o atendimento presencial não se faz mais possível no momento, essa é a forma que temos de proporcionar um certo diálogo entre a vinheria e possíveis clientes, fora isso temos uma tabela com os vinhos queridinhos da casa que faz de maneira mais prática o que seria feito no mercado presencial pelos vendedores, por exemplo, ao sugerir quais os vinhos mais vendidos e qual o tipo deles.
-Contamos também com vídeos de criadores de conteúdo sobre vinho que também servem como sugestão para a escolha do cliente. 
-Toda a ambientação do site foi pensada para que o cliente que já conhece os produtos da vinheria física se sinta também confortável em comprar agora on-line, pois o site é completamente intuitivo e prático de se usar, além disso, julgamos necessário pensarmos na estética, utilizando uma tabela de cores que remetem ao vinho e cores que conversam entre si, pois entendemos que um site bem estruturado e agradável aos olhos é interessante para que novos públicos sejam também atingidos, como aqueles que não possuem receio de comprar on-line, e que até mesmo, já tenham essa preferência.
+# Projeto Vinheria Agnello – Portal de E-commerce
+
+## 📝 Descrição do Projeto
+
+Este projeto tem como objetivo a criação de um portal de e-commerce para a tradicional Vinheria Agnello, uma empresa familiar que atua há mais de 15 anos no mercado de vinhos. A proposta é digitalizar a experiência de compra, mantendo a essência do atendimento personalizado que é marca registrada da loja física.
+
+Inspirado por um contexto fictício com base em situações verossímeis, este projeto simula o desenvolvimento de um site completo com múltiplas páginas, utilizando HTML, CSS e JavaScript, com foco em usabilidade, estética e fidelidade à história da empresa.
+
+---
+
+## 🍷 Sobre o Caso da Vinheria Agnello
+
+A Vinheria Agnello foi fundada pelo Sr. Giulio em São Paulo, com foco em oferecer uma curadoria de vinhos nacionais e internacionais com atendimento altamente consultivo. Com a chegada da pandemia, as vendas caíram significativamente devido à ausência de um canal online. 
+
+A filha de Giulio, Bianca, convenceu o pai a investir em um e-commerce. A proposta do site é oferecer uma experiência digital acolhedora, informativa e próxima, atendendo tanto especialistas quanto iniciantes no mundo dos vinhos, com seções que orientam desde a escolha até a harmonização ideal.
+
+---
+
+## 🗂️ Estrutura do Projeto
+
+O site é dividido em múltiplas páginas, cada uma com uma função específica:
+
+### Página de Início: `index.html`
+Página inicial com banners promocionais, seções de destaque como "Seleção do Enólogo", "Combina com..." e "Depoimentos". Também apresenta categorias visuais de vinhos.
+
+### Página de Vinhos: `src/pages/vinhos.html`
+Organiza os vinhos por categorias:
+- Tintos
+- Brancos
+- Espumantes
+- Sobremesas
+
+Cada vinho possui imagem, nome, preço e botão de compra.
+
+### Página de Ofertas: `src/pages/ofertas.html`
+Exibe vinhos com descontos temporários. Contém selos de promoção e preços antes e depois do desconto.
+
+### Página de Sobre: `src/pages/sobre.html`
+Apresenta a história da Vinheria Agnello, destacando seus pilares e sua missão
+
+### Página de Contato: `src/pages/contato.html`
+Página com formulário de contato, além de informações como endereço, telefone e e-mail.
+
+### Página de Tabela: `src/pages/tabela.html`
+Exibe uma tabela com os 10 vinhos mais vendidos da vinheria, com seus respectivos nomes, tipos e valores. A página inclui também um link para um vídeo externo com dicas de harmonização, além de estilos personalizados para a tabela com efeitos de hover e organização visual aprimorada.
+
+---
+
+## ✨ Efeitos Visuais
+
+O projeto implementa diversos efeitos visuais usando recursos avançados de CSS para melhorar a experiência do usuário:
+
+### 🎯 Pseudo-classes utilizadas:
+- `:hover` – efeitos em links, categorias, botões e tabelas.
+- `:focus` – destaque ao interagir com campos de formulário.
+
+### 🎯 Pseudo-elementos aplicados:
+- `::after` – barra decorativa animada nos links do menu.
+
+### 💫 Animações com `@keyframes`:
+- Animação `pulse` aplicada a elementos interativos como botões, promovendo atenção ao usuário com um efeito de escala suave e contínua.
+
+### 🔄 Transições CSS:
+- Transições suaves de cor, transformações e sombras em elementos como cards, botões, links e ícones.
+
+### 🎢 Transformações:
+- `scale()` – utilizado para aumentar levemente categorias e cards ao passar o mouse.
+- `translateY()` – dá leve deslocamento vertical para simular elevação em interações.
+  
+Esses efeitos foram cuidadosamente distribuídos para garantir uma navegação fluida, moderna e responsiva em diferentes dispositivos.
+
+---
+
+## 👥 Nome dos Integrantes
+- Matheus da Costa Barroso
+
+## 🔗 Link para o site no GitHub Pages
+- https://larissashiba.github.io/CP1-Vinheria-Agnello/
