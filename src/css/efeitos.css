@@ -2,6 +2,7 @@
 .nav-link:hover {
   color: #800028;
 }
+
 .nav-link::after {
   content: "";
   position: absolute;
@@ -12,12 +13,18 @@
   background: #800028;
   transition: width 0.3s;
 }
+
 .nav-link:hover::after,
 .nav-link.active::after {
   width: 100%;
 }
 
-.categoria-item:hover{
+/* Aplicando nth-child para o estilo de links alternados (ímpares) */
+.nav-link:nth-child(odd) {
+  font-weight: bold;
+}
+
+.categoria-item:hover {
   transform: scale(1.1) translateY(-4px);
 }
 
@@ -56,12 +63,16 @@
   pointer-events: none;
 }
 
-.categoria-item p{
-   font-size: 20px;
-   transition: transform 0.2s ease;
-   will-change: transform;
-   font-family: 'Chau Philomene One', serif;
-   
+.categoria-item p {
+  font-size: 20px;
+  transition: transform 0.2s ease;
+  will-change: transform;
+  font-family: 'Chau Philomene One', serif;
+}
+
+/* Aplicando nth-child para os itens da categoria */
+.categoria-item:nth-child(3n) {
+  background-color: #faf9f9c0; 
 }
 
 .card-combina {
@@ -75,14 +86,15 @@
   cursor: pointer;
 }
 
- .search-box button {
-    right: 12px;
-    top: 25%;
-    transform: translateY(-50%);
-    font-size: 17px;
-  }
+/* Estilizando o botão da busca (alterando sua posição no hover) */
+.search-box button {
+  right: 12px;
+  top: 25%;
+  transform: translateY(-50%);
+  font-size: 17px;
+}
 
-  /* Animação pulsante */
+/* Animação pulsante */
 .pulse {
   animation: pulse 1.5s infinite;
 }
@@ -96,9 +108,10 @@
   }
   100% {
     transform: scale(1);
-}
+  }
 }
 
+/* Estilo para os campos de formulário em foco */
 .form-grupo input:focus,
 .form-grupo textarea:focus {
   border-color: #880e4f;
