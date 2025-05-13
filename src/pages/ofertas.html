@@ -3,115 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="keywords" content="vinhos, vinheria, ofertas, descontos, vinho tinto, vinho branco" />
-  <meta name="description" content="Aproveite as ofertas exclusivas da Vinheria Agnello!" />
-  <title>Ofertas | Vinheria Agnello</title>
+  <meta name="description" content="Conheça a história da Vinheria Agnello, nossa paixão por vinhos e compromisso com a excelência." />
+  <meta name="keywords" content="vinhos, enófilos, vinheria, Agnello, vinho nacional, vinho importado" />
+  <title>Sobre - Vinheria Agnello</title>
   <link rel="icon" type="image/png" href="../assets/imgs/logo.ico" />
   <link rel="stylesheet" href="../css/style.css" />
   <link rel="stylesheet" href="../css/efeitos.css" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital,wght@0,400;1,400&display=swap"
-    rel="stylesheet"
-  >
-
-  <style>
-    /* Estilo geral do container */
-    .container {
-      width: 80%;
-      margin: 0 auto;
-      padding-top: 20px;
-    }
-
-    /* Estilo da seção de ofertas */
-    .ofertas {
-      text-align: center;
-    }
-
-    /* Títulos */
-    .ofertas h2 {
-      font-size: 2rem;
-      margin-bottom: 10px;
-    }
-    .ofertas p {
-      font-size: 1.2rem;
-      color: #666;
-    }
-
-    /* Contêiner das ofertas */
-    .oferta-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-      gap: 20px;
-      justify-items: center;
-      margin-top: 30px;
-    }
-
-    /* Estilo de cada item de oferta */
-    .oferta-item {
-      background-color: #f9f9f9;
-      padding: 15px;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-      text-align: center;
-      width: 100%;
-      max-width: 250px; /* Limita a largura máxima */
-    }
-
-    /* Ajuste do tamanho das imagens nas ofertas */
-    .oferta-item img {
-      width: 150px; /* Definindo um tamanho fixo para as imagens */
-      height: auto; /* Garantindo que a proporção da imagem seja mantida */
-      object-fit: cover; /* Garante que a imagem se ajuste sem distorção */
-      margin-bottom: 10px; /* Espaçamento entre a imagem e o título */
-      border-radius: 8px; /* Arredondando as bordas das imagens */
-    }
-
-    /* Títulos e preços */
-    .oferta-item h3 {
-      font-size: 1.4rem;
-      margin: 10px 0;
-    }
-    .oferta-item .preco {
-      font-size: 1.2rem;
-      color: #e74c3c;
-      margin-bottom: 15px;
-    }
-
-    /* Botões */
-    .oferta-item button {
-      background-color: #3498db;
-      color: white;
-      padding: 10px 15px;
-      font-size: 1rem;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s;
-    }
-
-    .oferta-item button:hover {
-      background-color: #2980b9;
-    }
-
-    /* Responsividade */
-    @media (max-width: 768px) {
-      .container {
-        width: 90%;
-      }
-      .oferta-item {
-        width: 100%;
-      }
-    }
-   
-   
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One&display=swap" rel="stylesheet" />
 </head>
 <body>
   <header class="claro">
     <div class="container">
-      <img src="../assets/imgs/agnello-logo.png" alt="Vinheria Agnello" class="logo" />
-      <nav>
-      <ul>
+      <img src="../assets/imgs/agnello-logo.png" alt="Logo da Vinheria Agnello, representando tradição e sofisticação" class="logo" />
+      <nav role="navigation" aria-label="Menu principal">
+        <ul>
           <li><a href="../../index.html" class="nav-link">Inicio</a></li>
           <li><a href="vinhos.html" class="nav-link">Vinhos</a></li>
           <li><a href="ofertas.html" class="nav-link">Ofertas</a></li>
@@ -127,60 +32,73 @@
         </form>
       </div>
     </div>
-    </div>
   </header>
 
-  <main>
-    <div class="container">
-      <section class="ofertas">
-        <h2>Ofertas Imperdíveis</h2>
-        <p>Aproveite as ofertas especiais de vinhos selecionados para você!</p>
+  <main class="container">
+    <section class="sobre">
+      <div class="secao-titulo">
+        <h1>Sobre a Vinheria Agnello</h1>
+        <div class="linha"></div>
+      </div>
 
-        <div class="oferta-container">
-          <!-- Oferta 1 -->
-          <div class="oferta-item">
-            <img src="../assets/imgs/vinho1.png" alt="Vinho Tinto Exclusivo" />
-            <h3>Vinho Tinto Exclusivo</h3>
-            <p class="preco">De R$ 150,00 por <strong>R$ 99,00</strong></p>
-            <button>Comprar</button>
-          </div>
-
-          <!-- Oferta 2 -->
-          <div class="oferta-item">
-            <img src="../assets/imgs/vinho2.png" alt="Vinho Branco Premium" />
-            <h3>Vinho Branco Premium</h3>
-            <p class="preco">De R$ 180,00 por <strong>R$ 129,00</strong></p>
-            <button>Comprar</button>
-          </div>
-
-          <!-- Oferta 3 -->
-          <div class="oferta-item">
-            <img src="../assets/imgs/vinho3.png" alt="Espumante Delicado" />
-            <h3>Espumante Delicado</h3>
-            <p class="preco">De R$ 120,00 por <strong>R$ 89,00</strong></p>
-            <button>Comprar</button>
-          </div>
-
-          <!-- Oferta 4 -->
-          <div class="oferta-item">
-            <img src="../assets/imgs/vinho4.png" alt="Vinho de Sobremesa" />
-            <h3>Vinho de Sobremesa</h3>
-            <p class="preco">De R$ 200,00 por <strong>R$ 149,00</strong></p>
-            <button>Comprar</button>
-          </div>
+      <div class="sobre-conteudo">
+        <img src="../assets/imgs/vinheria.jpg" alt="Imagem da Vinheria Agnello, mostrando o local e a área de cultivo de vinhedos" class="imagem-sobre" />
+        <div class="texto-sobre">
+          <p>
+            Fundada com paixão e dedicação, a <strong>Vinheria Agnello</strong> nasceu do sonho de unir tradição e sofisticação em cada taça. 
+            Ao longo dos anos, nos tornamos referência no mercado de vinhos, oferecendo uma curadoria criteriosa com os melhores rótulos nacionais e importados.
+          </p>
+          <p>
+            Nossa missão é proporcionar experiências únicas aos amantes do vinho — desde iniciantes até os mais exigentes enófilos. 
+            Trabalhamos com produtores que compartilham de nossos valores: autenticidade, sustentabilidade e excelência.
+          </p>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
+
+    <section class="equipe">
+      <div class="secao-titulo">
+        <h2>Nosso Enólogo</h2>
+        <div class="linha"></div>
+      </div>
+      <div class="equipe-conteudo">
+        <img src="../assets/imgs/enologo.jpg" alt="Leonardo Agnello, enólogo-chefe da Vinheria Agnello, especialista em vinhos" class="imagem-sobre" />
+        <div class="texto-sobre">
+          <p>
+            <strong>Leonardo Agnello</strong>, nosso enólogo-chefe, é especialista em vinhos com mais de 20 anos de experiência. 
+            Formado na Itália e com passagem por renomadas vinícolas da França e Argentina, Leonardo imprime sua identidade em cada rótulo selecionado.
+          </p>
+          <p>
+            Com sensibilidade apurada e profundo conhecimento técnico, ele conduz nossa curadoria com olhar atento ao terroir, à safra e ao potencial de harmonização de cada vinho.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="valores">
+      <div class="secao-titulo">
+        <h2>Nossos Valores</h2>
+        <div class="linha"></div>
+      </div>
+      <ul class="lista-valores">
+        <li>🍇 Paixão pelo vinho e pela cultura enológica</li>
+        <li>🌱 Compromisso com a sustentabilidade e pequenos produtores</li>
+        <li>🍷 Excelência no atendimento e experiência personalizada</li>
+        <li>💬 Transparência e relacionamento com o cliente</li>
+      </ul>
+    </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Vinheria Agnello. Todos os direitos reservados.</p>
+    <p>&copy; 2024 Vinheria Agnello. Todos os direitos reservados.</p>
     <nav>
-      <a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a>
+      <a href="#">Política de Privacidade</a> |
+      <a href="#">Termos de Uso</a> |
+      <a href="https://www.instagram.com/vinheriaagnello" target="_blank">Instagram</a> |
+      <a href="https://www.facebook.com/vinheriaagnello" target="_blank">Facebook</a>
     </nav>
   </footer>
 
-  
   <script src="../js/script.js"></script>
 </body>
 </html>
